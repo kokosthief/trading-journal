@@ -1,38 +1,38 @@
 .new-trade {
-    background-color: #a892ee;
-    padding: 1rem;
-    margin: 2rem auto;
-    width: 50rem;
-    max-width: 95%;
-    border-radius: 12px;
-    text-align: center;
-    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
-  }
-  
-  .new-trade button {
-    font: inherit;
-    cursor: pointer;
-    padding: 1rem 2rem;
-    border: 1px solid #40005d;
-    background-color: #40005d;
-    color: white;
-    border-radius: 12px;
-    margin-right: 1rem;
-  }
-  
-  .new-trade button:hover,
-  .new-trade button:active {
-    background-color: #510674;
-    border-color: #510674;
-  }
-  
-  .new-trade button.alternative {
-    color: #220131;
-    border-color: transparent;
-    background-color: transparent;
-  }
-  
-  .new-trade button.alternative:hover,
-  .new-trade button.alternative:active {
-    background-color: #ddb3f8;
-  }
+  background-color: #868fa4;
+  padding: 1rem;
+  margin: 2rem auto;
+  width: 50rem;
+  max-width: 95%;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+}
+
+.new-trade button {
+  font: inherit;
+  cursor: pointer;
+  padding: 1rem 2rem;
+  border: 3px solid #010001;
+  background-color: #c5cad8;
+  color: white;
+  border-radius: 8px;
+  margin-right: 1rem;
+}
+
+.new-trade button:hover,
+.new-trade button:active {
+  background-color: #062a35;
+  border-color: #24af93;
+}
+
+.new-trade button.alternative {
+  color: #220131;
+  border-color: transparent;
+  background-color: transparent;
+}
+
+.new-trade button.alternative:hover,
+.new-trade button.alternative:active {
+  background-color: #c7cbd8;
+}
