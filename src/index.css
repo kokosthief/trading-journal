@@ -13,3 +13,10 @@ body {
   margin: 0;
   background-color: #000b1f;
 }
+
+.homepage_title {
+  font-size: xxx-large;
+  color: aliceblue;
+  text-align: center;
+  text-decoration: underline;
+}

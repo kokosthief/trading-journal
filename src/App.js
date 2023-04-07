@@ -1,5 +1,6 @@
-import Trades from './components/Trades/Trades';
-import NewTrade from './components/NewTrade/NewTrade';
+import Trades from "./components/Trades/Trades";
+import NewTrade from "./components/NewTrade/NewTrade";
+import "./index.css";
 
 const App = () => {
   const trades = [
@@ -26,11 +27,11 @@ const App = () => {
 
   return (
     <div>
-      <h2>Trading Diary</h2>
+      <h1 className="homepage_title">Trading Journal</h1>
       <NewTrade />
       <Trades items={trades} />
     </div>
   );
-}
+};
 
 export default App;

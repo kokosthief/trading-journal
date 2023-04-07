@@ -11,19 +11,26 @@
 
 .new-trade button {
   font: inherit;
+  font-weight: bold;
   cursor: pointer;
   padding: 1rem 2rem;
   border: 3px solid #010001;
   background-color: #c5cad8;
-  color: white;
+  color: rgb(0, 0, 0);
   border-radius: 8px;
   margin-right: 1rem;
+  text-transform: uppercase;
 }
 
-.new-trade button:hover,
+.new-trade button:hover {
+  background-color: #062a35;
+  border-color: #24af93;
+  color: rgb(255, 252, 252);
+}
 .new-trade button:active {
   background-color: #062a35;
   border-color: #24af93;
+  color: rgb(255, 252, 252);
 }
 
 .new-trade button.alternative {
